@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_new_game"
+        android:title="New Game"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_menu_newgame"/>
+
+    <item
+        android:id="@+id/menu_leader_board"
+        android:title="Leader board"
+        app:showAsAction="always"
+        android:icon="@mipmap/podium"/>
+
+    <item
+        android:id="@+id/menu_history"
+        android:title="History"
+        android:icon="@mipmap/sword"/>
+
+    <item
+        android:id="@+id/menu_help"
+        android:title="Help"
+        app:showAsAction="never"
+        android:icon="@mipmap/help_desk"/>
+</menu>
